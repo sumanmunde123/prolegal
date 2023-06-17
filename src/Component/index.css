@@ -1,0 +1,20 @@
+.navbar{
+    border: 1px solid black;
+    width: 800px;
+    height: 101px;
+    margin-top: -288px;
+    margin-left: 25%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+.logoi{
+    width: 200px;
+    height: 40px;
+
+}
