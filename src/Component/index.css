@@ -1,5 +1,5 @@
 .navbar{
-    border: 1px solid black;
+    border: 1px solid wheat;
     width: 800px;
     height: 101px;
     /* margin-top: -288px; */
@@ -40,11 +40,13 @@
     margin-left: 15px;
 }
 .sidebar{
-    border: 1px solid black;
-    height: 500px;
+    border: 1px solid wheat;
+    height: 750px;
     width: 133px;
     margin-top: 10px;
     margin-left: 25%;
+    background-color: white;
+    box-shadow: 0 0 0 0;
 }
 body{
     overflow-y: scroll;
@@ -52,3 +54,81 @@ body{
 .color{
     color: black;
 }
+.fetchdata{
+    border: 1px solid white;
+width: 650px;
+height: 750px;
+margin-left: 45%;
+margin-top: -728px;
+box-shadow: -20px -20px #fbf6f6;
+border-radius: 10px;
+
+}
+h3{
+    margin-left: 10px;
+}
+p{
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: -15px;
+}
+.box{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.inside{
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-top: 20px;
+    height: 495px;
+    display: grid;
+    grid-template-columns: 324px 324px;
+    justify-content: space-evenly;
+}
+.fetch_i{
+    border: 1px solid wheat;
+    height: 320px;
+    width: 324px;
+    /* position: absolute; */
+    font-size: 12px;
+    font-weight: bold;
+   
+    
+    
+}
+label{
+    font-size: 10px;
+    font-weight: normal;
+ }
+ 
+#text{
+    margin-top: 38px;
+    margin-left: -200px;
+  
+}
+#texti{
+    margin-top: 38px;
+    margin-right: 38px;
+    }
+    #textii{
+        margin-top: 58px;
+        margin-left: -200px;
+      
+    }
+    .lablei > label{
+      font-size: 10px;
+    }
+    .lablei{
+        display: block;
+        margin-top: 10px;
+        margin-left: 10px;
+        
+    }
+    .boxi{
+        display: flex;
+        gap: 40px;
+        /* margin-left: 20px; */
+    }
